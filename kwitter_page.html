@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kwitter Message page</title>
+	<title>LetsChat Message page</title>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+@@ -20,21 +20,22 @@
+<div class="container">
+	<button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button>
+	<center>
+		<h1 class="header">	
+			Kwitter	
+			<sup>
+				<img src="m2.png">
+				<img id= "img2" src="text.png">
+			</sup>
+		</h1>
+		<div id="output" style="text-align: left;margin-bottom: 70px;"> </div>
+	</center>
+</div>
+
+<center>
+
+ <center>
+	<div class="input_div_message_page">
+		<label>Send:</label>
+	<label>Send:</label>
+		<sup>
+		<input type="text" id="msg" class="form-control" placeholder="Message">
+		<button class="btn btn-success" onclick="send()">Send</button>
+		<button id= "btn1" class="btn btn-success" onclick="send()">Send</button>
+	</sup>
+	</div>
+</center>
